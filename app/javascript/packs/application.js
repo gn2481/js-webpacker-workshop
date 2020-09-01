@@ -17,3 +17,19 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
+
+import 'select2'
+import 'select2/dist/css/select2.css'
+
+import $ from 'jquery'
+window.$ = $
+
+import 'sweetalert2'
+
+import Swal from 'sweetalert2'
+window.Swal = Swal
+
+import 'tempusdominus-bootstrap-4'
+import 'tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.css'
+
+import 'font-awesome/css/font-awesome.css'

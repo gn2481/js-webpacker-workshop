@@ -56,9 +56,10 @@
     <%# 這邊要把改成從資料庫撈出來  option_for_select%>
 
     <select class="form-control js-example-basic-multiple" name="product[tag_list][]" multiple="multiple">
-      <option value="tag1">tag1</option>
+    <%= options_for_select(product.tag_list, product.tag_list)%>
+      <%# <option value="tag1">tag1</option>
       <option value="tag2">tag2</option>
-      <option value="tag3">tag3</option>
+      <option value="tag3">tag3</option> %>
     </select>
 
   </div>
